@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import emailjs from "emailjs-com";
 import "./Form.css";
 function Form() {
   const [other, setOther] = useState(false);
@@ -10,27 +11,33 @@ function Form() {
     }
   }
   const [uploadFile, setUploadFile] = React.useState();
-  const [superHero, setSuperHero] = React.useState();
-  const submitForm = (event) => {
-    event.preventDefault();
+  function sendEmail(e) {
+    e.preventDefault();
 
-    const dataArray = new FormData();
-    dataArray.append("superHeroName", superHero);
-    dataArray.append("uploadFile", uploadFile);
-  };
-
+    emailjs
+      .sendForm("service_8pvnahf", "template_la5o6ie", e.target, "user_VQjGhLcKQ6F5qXJa7ZBeI")
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+      e.target.reset();
+  }
   return (
-    <div className="main">
+    <form className="main" onSubmit={sendEmail}>
       <h6>Full Name: *</h6>
-      <input type="text" className="input"></input>
+      <input type="text" className="input" name = 'from_name'></input>
       <h6>Email Address: *</h6>
-      <input type="text" className="input"></input>
+      <input type="text" className="input" name = 'from__mail'></input>
       <h6>Phone Number: *</h6>
-      <input type="text" className="input"></input>
+      <input type="text" className="input" name = 'from__number'></input>
       <h6>Company Name: *</h6>
-      <input type="text" className="input"></input>
+      <input type="text" className="input" name = 'from__company'></input>
       <h6>Industry: *</h6>
-      <select className="selector" onChange={(e) => handler(e.target.value)}>
+      <select className="selector" onChange={(e) => handler(e.target.value)} name='from__industry'>
         <option value="Oil and Gas">Oil and Gas</option>
         <option value="Chemical">Chemical</option>
         <option value="Refining">Refining</option>
@@ -40,15 +47,14 @@ function Form() {
         <option value="other">Others</option>
       </select>
       {other ? (
-        <input type="text" className="input" placeholder="Other"></input>
+        <input type="text" className="input" placeholder="Other" name='from__industry'></input>
       ) : (
         ""
       )}
       <h6>Country: *</h6>
-      <input type="text" className="input"></input>
+      <input type="text" className="input" name='from__country'></input>
       <h6>What can we help you with today? *</h6>
-      <input type="text" className="input"></input>
-
+      <input type="text" className="input" name='message'></input>
       <br />
       <input
         type="file"
@@ -56,19 +62,17 @@ function Form() {
         onChange={(e) => setUploadFile(e.target.files)}
       />
       <br />
-        <div className='checkbox'>
-      <input type="checkbox" style={{ cursor: "pointer" }} />
-      <span className="checkbox">
-        {" "}
-        I accept that the data submitted will be used to contact me for the
-        business intended. I understand and agree to the PRIVACY POLICY
-      </span>
+      <div className="checkbox">
+        <input type="checkbox" style={{ cursor: "pointer" }} />
+        <span className="checkbox">
+          {" "}
+          I accept that the data submitted will be used to contact me for the
+          business intended. I understand and agree to the PRIVACY POLICY
+        </span>
       </div>
       <p></p>
-      <button className="submit__btn" onSubmit={submitForm}>
-        SUBMIT
-      </button>
-    </div>
+      <input type='submit' value='Send Message'></input>
+    </form>
   );
 }
 

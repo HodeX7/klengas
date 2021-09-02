@@ -15,7 +15,7 @@ function BagFilter() {
         </div>
         <div className="product__catalogue">
           {" "}
-          <a href="https://google.com">Download Catalogue</a>
+          <a href="../../assets/catalogues/" download>Download Catalogue</a>
         </div>
         <h4>About</h4>
         <div className="product__content">
