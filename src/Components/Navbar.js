@@ -23,7 +23,8 @@ function Navbar() {
         {/* <StoreIcon className="store__logo" />
         <h3>KLENGAS</h3> */}
         <Link to="/">
-          <img src={KlengasLogo} alt="" className="store__logo"  width="275" height="275"/>
+          <img src={KlengasLogo} alt="" className="store__logo"  width="275
+          " height="275"/>
         </Link>
       </div>
 

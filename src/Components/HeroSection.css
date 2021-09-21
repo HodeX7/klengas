@@ -9,12 +9,7 @@
 
 .hero__images{
     display: flex;
-    
 }
-/* .images{
-    height: 300px;
-    width: 300px;
-} */
 .featured__section{
     display: flex;
     background-color: rgb(228, 228, 228);
@@ -31,7 +26,13 @@
     margin-left: 3vh;
     margin-right: 3vh;
 }
-
+.hero__card{
+    width: 100%;
+    text-decoration: none;
+}
+.hero__card:hover{
+    text-decoration: none;
+}
 @media only screen and (max-width:900px) {
 .main__section{
     overflow-x: hidden;
