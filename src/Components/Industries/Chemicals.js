@@ -11,7 +11,7 @@ function Chemicals() {
                 <p>Chemical industry is a large expanse of variants which need purification at various stages in manufacturing. Not only in the liquids, but also in the gaseous stages for catalyst protection or prevention of poisoning of essentials. Filters have to handle extremely corrosive and abrasive liquids while maintaining their integrity and still delivering the performance on consistent basis.</p>
             </div>
             <h3 className="application">APPLICATIONS</h3>
-            <h6 className="application ong">Chemicals</h6>
+            <h4 className="application ong">Chemicals</h4>
             <div className='applications'>
                 <Card img={mainImage} title='Process & Waste Water' content='Process water and waste water requires clean up from solids as they lead to contamination in the process/reactions/units. The waste water treatment plant has reverse osmosis which needs protection from solids as per OEM guidelines in terms of SDI. This is achieved by designing optimal filtration systems having longer onstream life and lower clean pressure drops.' />
                 <Card img={mainImage} title='Catalyst Filtration' content='During a chemical reaction devised for a certain product, unwanted contamination lead to off spec product and/or by-products which reduce % yield and increase the cost of production. To avoid, proper filtration of raw material like process water, solvents etc keep away solid contamination from entering the reactor and help reactor to produce at maximum possible yield. These are also used at point of use, just upstream of reactor inlet.' />

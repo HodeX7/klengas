@@ -41,6 +41,7 @@ button{
     color: rgb(127, 187, 255);
 }
 .btn{
+    min-height: 0vh;
     min-width: 90%;
     display: flex;
     justify-content: center;

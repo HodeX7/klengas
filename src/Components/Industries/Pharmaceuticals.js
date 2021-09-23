@@ -15,7 +15,7 @@ function Pharmaceuticals() {
           </p>
         </div>
         <h3 className="application">APPLICATIONS</h3>
-        <h6 className="application ong">Pharmaceuticals</h6>
+        <h4 className="application ong">Pharmaceuticals</h4>
         <div className="applications">
             <Card
               img={mainImage}

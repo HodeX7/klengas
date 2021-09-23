@@ -45,10 +45,9 @@ function HeroSection() {
             className="hero__card"
             img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlPMJoPOtQ0unTfgMiMJjEQEGFY2ITssffLg&usqp=CAU"
             title="Oil And Gas"
-            content="Oil & Gas Processing stations separate crude oil, produced water and associated gas from well fluid."
+            content="Oil & Gas Processing stations separate crude oil, produced water and associated gas from well fluid. The crude oil is further purified and made transportable to nearest refinery."
             page="/oilandgas"
           />
-
           <HeroCard
             className="hero__card"
             img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlPMJoPOtQ0unTfgMiMJjEQEGFY2ITssffLg&usqp=CAU"

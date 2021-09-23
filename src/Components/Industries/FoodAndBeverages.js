@@ -20,7 +20,7 @@ function FoodAndBeverages() {
           </p>
         </div>
         <h3 className="application">APPLICATIONS</h3>
-        <h6 className="application ong">Food and Beverages</h6>
+        <h4 className="application ong">Food and Beverages</h4>
         <div className="applications">
           <Card
             img={mainImage}

@@ -46,7 +46,7 @@ function oilAndGas() {
           </p>
         </div>
           <h3 className="application">APPLICATIONS</h3>
-          <h5 className="application ong">Refineries</h5>
+          <h4 className="application ong">Refineries</h4>
           <div className="applications">
             <Card
               title="AMINE SWEETENING (RICH AMINE & LEAN AMINE)"
@@ -150,7 +150,7 @@ function oilAndGas() {
               fluid system."
             />
           </div>
-          <h5 className="application ong">Oil And Gas</h5>
+          <h4 className="application ong">Oil And Gas</h4>
           <div className="applications">
             <Card
               img={mainImage}

@@ -11,7 +11,7 @@ function PowerGeneration() {
                 <p>Power Generation is done through Thermal, Hydro, Solar, Nuclear resources. In every and all modes of power generation, water is a critical resource.  Water is required to be purified in various forms. Steam condensate filtration of the right efficiency and removal rating, not only improves the heat recovery, but also reduces corrosion, wear and tear of internal components. Lube oil is another resource for the power generation industry. We keep the lube oil clean and away from dirt, water and gases if any by our lube oil purification system.</p>
             </div>
             <h3 className="application">APPLICATIONS</h3>
-            <h6 className="application ong">Power Generation</h6>
+            <h4 className="application ong">Power Generation</h4>
             <div className='applications'>
                 <Card img={mainImage} title='Hydraulic Oil' content = 'Off-line filters/ Kidney Loop filters are utilised to maintain cleanliness in the tank and system to avoid break-down maintenance in the plant. Depending on the cleanliness requirements of the system, 1micron to 12 micron filters are recommended' />
                 <Card img={mainImage} title='Pressure line filters, Off-line filters ((kidney Loop Filters)' content = 'Servo Valves dynamic clearances are  1- 4 microns (Usually 3microns) and particles above these sizes can cause wear and sluggish performance of servo valves. Hence, in Pressure line, 1- 3 micron filters absolute rated are recommended to maintain cleanliness of ISO 14/11' />
