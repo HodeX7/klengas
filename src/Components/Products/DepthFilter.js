@@ -2,20 +2,36 @@ import React from "react";
 import "./BagFilter.css";
 import image from "../../assets/images/logo.png";
 import mainImage from "../../assets/images/oilAndGas.png";
+
+
+import  KGTPolypromaxCartridgefilter from "../../assets/Catalogue/06 KGT_Polypromax_Pleated_Cartridge_Filter_Catalogue_R0.pdf"
+import  KGTPolyproCartridgefilter from "../../assets/Catalogue/05 KGT_Polypro_Pleated_Cartridge_Filter_Catalogue_R0.pdf"
+
+import image1 from "../../assets/Product images/polypromax/3.png"
+import image2 from "../../assets/Product images/polypromax/Picture1.png"
+import image3 from "../../assets/Product images/polypromax/polypromax 1.png"
+import image4 from "../../assets/Product images/polypromax/polypromax.png"
+
+
+import image5 from "../../assets/Product images/polypro/polypro filter 1.png"
+import image6 from "../../assets/Product images/polypro/polypro filter 2.png"
+import image7 from "../../assets/Product images/polypro/polypro filter 3.png"
+import image8 from "../../assets/Product images/polypro/polypro filter 4.png"
+
 function DepthFilter() {
   return (
     <div className="products__page">
       <img src={mainImage} alt="" className="mainImage" />
       <div className="product__details">
         <div className="image__section">
-          <img src={image} alt="" className="product__image" />
-          <img src={image} alt="" className="product__image" />
-          <img src={image} alt="" className="product__image" />
-          <img src={image} alt="" className="product__image" />
+          <img src={image1} alt="" className="product__image" style={{ height : "20vh" , width : "20vw"}}/>
+          <img src={image2} alt="" className="product__image" style={{ height : "20vh" , width : "20vw", marginLeft : "3px"}}/>
+          <img src={image3} alt="" className="product__image" style={{ height : "20vh" , width : "20vw", marginLeft : "3px"}}/>
+          <img src={image4} alt="" className="product__image" style={{ height : "20vh" , width : "20vw", marginLeft : "3px"}}/>
         </div>
         <div className="product__catalogue">
           {" "}
-          <a href="https://google.com">Download Catalogue</a>
+          <a href={KGTPolypromaxCartridgefilter} target="_blank">Download Catalogue</a>
         </div>
         <h4>About</h4>
         <div className="product__content">
@@ -87,14 +103,14 @@ function DepthFilter() {
       <hr></hr>
       <div className="product__details">
         <div className="image__section">
-          <img src={image} alt="" className="product__image" />
-          <img src={image} alt="" className="product__image" />
-          <img src={image} alt="" className="product__image" />
-          <img src={image} alt="" className="product__image" />
+          <img src={image5} alt="" className="product__image" style={{ height : "20vh" , width : "20vw"}}/>
+          <img src={image6} alt="" className="product__image" style={{ height : "20vh" , width : "20vw", marginLeft : "3px"}}/>
+          <img src={image7} alt="" className="product__image" style={{ height : "20vh" , width : "20vw", marginLeft : "3px"}}/>
+          <img src={image8} alt="" className="product__image" style={{ height : "20vh" , width : "20vw", marginLeft : "3px"}}/>
         </div>
         <div className="product__catalogue">
           {" "}
-          <a href="https://google.com">Download Catalogue</a>
+          <a href={KGTPolyproCartridgefilter} target="_blank">Download Catalogue</a>
         </div>
         <h4>About</h4>
         <div className="product__content">

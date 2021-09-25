@@ -2,20 +2,35 @@ import React from "react";
 import "./BagFilter.css";
 import image from "../../assets/images/logo.png";
 import mainImage from "../../assets/images/oilAndGas.png";
+
+import KGTWireMeshMetalFilter from "../../assets/Catalogue/03 KGT_Metal_Filter_Catalogue_R0.pdf"
+import KGTPowderedSinteredStainlessSteelFilter from "../../assets/Catalogue/04 KGT_Sintered_Powder_Metal_Filter_Catalogue.pdf"
+
+import image1 from "../../assets/Product images/metal mesh/metal mesh filter 1.jpg"
+import image2 from "../../assets/Product images/metal mesh/metal mesh filter 2.jpg"
+import image3 from "../../assets/Product images/metal mesh/metal mesh filter 3.jpg"
+import image4 from "../../assets/Product images/metal mesh/metal mesh filter 4.png"
+
+
+import image5 from "../../assets/Product images/sintered/sintered powder metal filter 1.jpg"
+import image6 from "../../assets/Product images/sintered/sintered powder metal filter 2.jpg"
+import image7 from "../../assets/Product images/sintered/sintered powder metal filter 3.jpg"
+import image8 from "../../assets/Product images/sintered/sintered powder metal filter.png"
+
 function MetalFilter() {
   return (
     <div className="products__page">
       <img src={mainImage} alt="" className="mainImage" />
       <div className="product__details">
         <div className="image__section">
-          <img src={image} alt="" className="product__image" />
-          <img src={image} alt="" className="product__image" />
-          <img src={image} alt="" className="product__image" />
-          <img src={image} alt="" className="product__image" />
+          <img src={image1} alt="" className="product__image" style={{ height : "20vh" , width : "20vw"}}/>
+          <img src={image2} alt="" className="product__image" style={{ height : "20vh" , width : "20vw", marginLeft : "3px"}}/>
+          <img src={image3} alt="" className="product__image" style={{ height : "20vh" , width : "20vw", marginLeft : "3px"}}/>
+          <img src={image4} alt="" className="product__image" style={{ height : "20vh" , width : "20vw", marginLeft : "3px"}}/>
         </div>
         <div className="product__catalogue">
           {" "}
-          <a href="https://google.com">Download Catalogue</a>
+          <a href={KGTWireMeshMetalFilter} target="_blank">Download Catalogue</a>
         </div>
         <h4>About</h4>
         <div className="product__content">
@@ -80,14 +95,14 @@ function MetalFilter() {
       <hr></hr>
       <div className="product__details">
         <div className="image__section">
-          <img src={image} alt="" className="product__image" />
-          <img src={image} alt="" className="product__image" />
-          <img src={image} alt="" className="product__image" />
-          <img src={image} alt="" className="product__image" />
+          <img src={image5} alt="" className="product__image" style={{ height : "20vh" , width : "20vw"}}/>
+          <img src={image6} alt="" className="product__image" style={{ height : "20vh" , width : "20vw", marginLeft : "3px"}}/>
+          <img src={image7} alt="" className="product__image" style={{ height : "20vh" , width : "20vw", marginLeft : "3px"}}/>
+          <img src={image8} alt="" className="product__image" style={{ height : "20vh" , width : "20vw", marginLeft : "3px"}}/>
         </div>
         <div className="product__catalogue">
           {" "}
-          <a href="https://google.com">Download Catalogue</a>
+          <a href={KGTPowderedSinteredStainlessSteelFilter} target="_blank">Download Catalogue</a>
         </div>
         <h4>About</h4>
         <div className="product__content">

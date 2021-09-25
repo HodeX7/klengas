@@ -1,20 +1,35 @@
 import React from "react";
 import image from "../../assets/images/logo.png";
 import mainImage from "../../assets/images/oilAndGas.png";
+
+import image1 from "../../assets/Product images/largeflow/large flow filter 1.png"
+import image2 from "../../assets/Product images/largeflow/large flow filter.png"
+import image3 from "../../assets/Product images/largeflow/Large_Flow_Filter.png"
+import image4 from "../../assets/Product images/largeflow/Large_Flow_Filter_3.png"
+
+
+import image5 from "../../assets/Product images/smitmann/Picture1.jpg"
+import image6 from "../../assets/Product images/smitmann/Picture2.jpg"
+import image7 from "../../assets/Product images/smitmann/Picture3.png"
+import image8 from "../../assets/Product images/smitmann/Picture4.png"
+
+
+import KGTLargeFlowfilter from "../../assets/Catalogue/02 KGT_Large_flow_Catalogue_R4.pdf"
+import  KGTSMITMANNCartridgefilter from "../../assets/Catalogue/07 KGT_Smitmann_Cartridge_Filter_Catalogue_R0.pdf"
 function LargeDiameterFilter() {
   return (
     <div className="products__page">
       <img src={mainImage} alt="" className="mainImage" />
       <div className="product__details">
         <div className="image__section">
-          <img src={image} alt="" className="product__image" />
-          <img src={image} alt="" className="product__image" />
-          <img src={image} alt="" className="product__image" />
-          <img src={image} alt="" className="product__image" />
+          <img src={image1} alt="" className="product__image" style={{ height : "20vh" , width : "20vw"}}/>
+          <img src={image2} alt="" className="product__image" style={{ height : "20vh" , width : "20vw", marginLeft : "3px"}}/>
+          <img src={image3} alt="" className="product__image" style={{ height : "20vh" , width : "20vw", marginLeft : "3px"}}/>
+          <img src={image4} alt="" className="product__image" style={{ height : "20vh" , width : "20vw", marginLeft : "3px"}}/>
         </div>
         <div className="product__catalogue">
           {" "}
-          <a href="https://google.com">Download Catalogue</a>
+          <a href={KGTLargeFlowfilter} target="_blank">Download Catalogue</a>
         </div>
         <h4>About</h4>
         <div className="product__content">
@@ -85,14 +100,14 @@ function LargeDiameterFilter() {
       <hr></hr>
       <div className="product__details">
         <div className="image__section">
-          <img src={image} alt="" className="product__image" />
-          <img src={image} alt="" className="product__image" />
-          <img src={image} alt="" className="product__image" />
-          <img src={image} alt="" className="product__image" />
+          <img src={image5} alt="" className="product__image" style={{ height : "20vh" , width : "20vw"}}/>
+          <img src={image6} alt="" className="product__image" style={{ height : "20vh" , width : "20vw", marginLeft : "3px"}}/>
+          <img src={image7} alt="" className="product__image" style={{ height : "20vh" , width : "20vw", marginLeft : "3px"}}/>
+          <img src={image8} alt="" className="product__image" style={{ height : "20vh" , width : "20vw", marginLeft : "3px"}}/>
         </div>
         <div className="product__catalogue">
           {" "}
-          <a href="https://google.com">Download Catalogue</a>
+          <a href={KGTSMITMANNCartridgefilter} target="_blank">Download Catalogue</a>
         </div>
         <h4>About</h4>
         <div className="product__content">

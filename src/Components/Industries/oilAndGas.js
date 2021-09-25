@@ -1,5 +1,5 @@
 import React from "react";
-import mainImage from "./../../assets/images/oilAndGas.png";
+import mainImage from "./../../assets/New Website Images HD/oilAndGasBanner.jpg";
 import "./oilAndGas.css";
 import Card from "../Card";
 

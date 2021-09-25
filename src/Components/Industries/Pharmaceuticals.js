@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "../Card";
-import mainImage from "./../../assets/images/oilAndGas.png";
+import mainImage from "./../../assets/New Website Images HD/pharmaceuticalsBanner.jpg";
 import "./oilAndGas.css";
 function Pharmaceuticals() {
   return (
