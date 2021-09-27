@@ -1,6 +1,6 @@
 import React from "react";
 import image from "../../assets/images/logo.png";
-import mainImage from "../../assets/images/oilAndGas.png";
+import mainImage from "../../assets/images/pleatedFiltersBanner.jpg";
 
 import image1 from "../../assets/Product images/largeflow/large flow filter 1.png"
 import image2 from "../../assets/Product images/largeflow/large flow filter.png"

@@ -24,6 +24,12 @@
     display: flex;
     flex-direction: column;
 }
+.mainImage{
+    background-color: black;
+    height: 55vh;
+    width: 100vw;
+    object-fit: cover;
+}
 
 /* .image__section{
     display: flex;

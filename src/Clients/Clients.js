@@ -1,6 +1,6 @@
 import React from 'react'
 import './Clients.css';
-import mainImage from "./../assets/images/oilAndGas.png";
+import mainImage from "./../assets/images/clientsBanner.jpg";
 import TataMoterLogo from './../assets/Logos/clients/Auto/2017-logo-Tata-Motors.jpg'
 import SuzukiLogo from './../assets/Logos/clients/Auto/SUZUKI_MOTORS.png'
 import CarltonLogo from './../assets/Logos/clients/Chemical/CARLTON_LOGO.jpg'
@@ -36,18 +36,10 @@ import TorrentLogo from './../assets/Logos/clients/Pharma/Torrent_Pharma.jpg'
 import ZydusLogo from './../assets/Logos/clients/Pharma/ZYDUS_LOGO.jpg'
 
 
-
-
-
-
-
-
-
-
 function Clients() {
     return (
         <>
-        <img src={mainImage} alt="" className="mainImage" />
+        <img src={mainImage} alt="" className="mainImage1" />
         <div className='clients'>
             <h1 className='title'>OUR ELITE CUSTOMERS</h1>
             <div className='company__section'> 

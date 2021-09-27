@@ -1,6 +1,7 @@
 .banner__image{
     height: 55vh;
     width: 100vw;
+    object-fit: cover;
 }
 .list{
     display: flex;

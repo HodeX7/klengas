@@ -1,7 +1,7 @@
 import React from "react";
 import "./BagFilter.css";
-import image from "../../assets/images/logo.png";
-import mainImage from "../../assets/images/oilAndGas.png";
+import image from "../../assets/images/bagFilterBanner.jpg";
+import mainImage from "../../assets/images/pleatedFiltersBanner.jpg";
 import image1 from "../../assets/Product images/bag filter/Bag filter.jpg"
 import image2 from "../../assets/Product images/bag filter/Bag_Filter_1.png"
 import image3 from "../../assets/Product images/bag filter/Bag_Filter_2.png"

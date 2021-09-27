@@ -1,7 +1,7 @@
 import React from "react";
 import "./BagFilter.css";
 import image from "../../assets/images/logo.png";
-import mainImage from "../../assets/images/oilAndGas.png";
+import mainImage from "../../assets/images/pleatedFiltersBanner.jpg";
 
 
 import  KGTPolypromaxCartridgefilter from "../../assets/Catalogue/06 KGT_Polypromax_Pleated_Cartridge_Filter_Catalogue_R0.pdf"

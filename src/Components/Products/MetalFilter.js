@@ -1,7 +1,7 @@
 import React from "react";
 import "./BagFilter.css";
 import image from "../../assets/images/logo.png";
-import mainImage from "../../assets/images/oilAndGas.png";
+import mainImage from "../../assets/images/pleatedFiltersBanner.jpg";
 
 import KGTWireMeshMetalFilter from "../../assets/Catalogue/03 KGT_Metal_Filter_Catalogue_R0.pdf"
 import KGTPowderedSinteredStainlessSteelFilter from "../../assets/Catalogue/04 KGT_Sintered_Powder_Metal_Filter_Catalogue.pdf"

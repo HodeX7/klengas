@@ -9,6 +9,11 @@
 .ilogo:hover{
     transform: scale(1.15);
 }
+.mainImage1{
+    object-fit: contain;
+    /* height: 60vh; */
+    background-color:  transparent;
+}
 .title{
     display: flex;
     justify-content: center;
