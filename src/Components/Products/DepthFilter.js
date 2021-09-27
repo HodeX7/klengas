@@ -92,8 +92,6 @@ function DepthFilter() {
             <li>Oil & Gas</li>
             <li>Power Generation</li>
             <li>Process & Waste Water</li>
-          </ul>
-          <ul>
             <li>Electronics</li>
             <li>Pharmaceuticals</li>
             <li>Food & Beverages</li>

@@ -13,6 +13,7 @@ function BagFilter() {
     <div className="products__page">
       <img src={mainImage} alt="" className="mainImage" />
       <div className="product__details">
+        <h3 style={{textTransform:"uppercase",marginLeft:'30vw'}}>KGT Bag filter</h3>
         <div className="image__section">
           <img src={image1} alt="" className="product__image" />
           <img src={image2} alt="" className="product__image" />
@@ -74,12 +75,10 @@ function BagFilter() {
           </p>
         </div>
         <h4>APPLICATIONS</h4>
-        <div className="product__content" style={{ display: "flex" }}>
+        <div className="product__content" style={{ display: "flex", }}>
           <ul style={{ paddingRight: "10%" }}>
             <li>Process Water</li>
             <li>Lube Oils</li>
-          </ul>
-          <ul>
             <li>Amine, Glycol</li>
             <li>Brine, Seawater</li>
           </ul>

@@ -52,7 +52,7 @@ function Navbar() {
                     <Link to="/foodandbeverages">Food and Beverages</Link>
                   </MenuItem>
                   <MenuItem> 
-                    <Link to="/chemicals">Chemicals</Link>
+                    <Link to="/chemicals">Chemicals and Petrochemicals</Link>
                   </MenuItem>
                   <MenuItem> 
                     <Link to="/waterprocessing">Water Processing</Link>

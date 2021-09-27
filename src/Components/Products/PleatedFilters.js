@@ -21,6 +21,7 @@ function PleatedFilters() {
     <div className="products__page">
       <img src={mainImage} alt="" className="mainImage" />
       <div className="product__details">
+        <h3 style={{textTransform:"uppercase",marginLeft:'30vw'}}>KGT Polypromax cartridge</h3>
         <div className="image__section">
           <img src={image1} alt="" className="product__image" style={{ height : "20vh" , width : "20vw"}}/>
           <img src={image2} alt="" className="product__image" style={{ height : "20vh" , width : "20vw", marginLeft : "3px"}}/>
@@ -85,13 +86,11 @@ function PleatedFilters() {
           <p>Polypropylene Medium: 3.4 bar d @ 25°C & 2.0 bar d @80°C</p>
         </div>
         <h4>APPLICATIONS</h4>
-        <div className="product__content" style={{ display: "flex" }}>
+        <div className="product__content" style={{ display: "flex", maxWidth:"200vw"}}>
           <ul style={{ paddingRight: "10%" }}>
             <li>Oil & Gas</li>
             <li>Power Generation</li>
             <li>Process & Waste Water</li>
-          </ul>
-          <ul>
             <li>Electronics</li>
             <li>Pharmaceuticals</li>
             <li>Food & Beverages</li>
@@ -100,6 +99,7 @@ function PleatedFilters() {
       </div>
       <hr></hr>
       <div className="product__details">
+        <h3 style={{textTransform:"uppercase",marginLeft:'30vw'}}>KGT Polypro cartridge</h3>
         <div className="image__section">
           <img src={image5} alt="" className="product__image" style={{ height : "20vh" , width : "20vw"}}/>
           <img src={image6} alt="" className="product__image" style={{ height : "20vh" , width : "20vw", marginLeft : "3px"}}/>
@@ -163,13 +163,11 @@ function PleatedFilters() {
           <p>Polypropylene Medium: 3.4 bar d @ 25°C & 2.0 bar d @80°C</p>
         </div>
         <h4>APPLICATIONS</h4>
-        <div className="product__content" style={{ display: "flex" }}>
+        <div className="product__content" style={{ display: "flex", maxWidth: "200vw" }}>
           <ul style={{ paddingRight: "10%" }}>
             <li>Oil & Gas</li>
             <li>Power Generation</li>
             <li>Process & Waste Water</li>
-          </ul>
-          <ul>
             <li>Electronics</li>
             <li>Pharmaceuticals</li>
             <li>Food & Beverages</li>
@@ -181,9 +179,10 @@ function PleatedFilters() {
         <p>We also deal in</p>
         <ol>
           <li>PTFE</li>
-          <li>Polyster</li>
+          <li>Polyester</li>
           <li>Glass Fibre</li>
           <li>Oil Absorbing Media</li>
+          <li>Polyether Sulphone (PES)</li>
         </ol>
         <h4>For More Details Contact Us</h4>
       </div>

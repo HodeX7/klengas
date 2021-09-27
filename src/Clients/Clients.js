@@ -48,6 +48,7 @@ function Clients() {
                     <img className = 'ilogo' src = {IndianOilLogo} alt =''/> 
                     <img className = 'ilogo' src = {NayaraLogo} alt =''/> 
                     <img className = 'ilogo' src = {ONGCLogo} alt =''/> 
+                    <img className = 'ilogo' src = {HMELLogo} alt =''/> 
                 </div>
             </div>
             <div className='company__section'> 
@@ -70,18 +71,10 @@ function Clients() {
                 </div>
             </div>
             <div className='company__section'> 
-                <h4>AUTOMOBILE</h4>
-                <div className='company__logos'>
-                    <img className = 'ilogo' src = {TataMoterLogo} alt =''/> 
-                    <img className = 'ilogo' src = {SuzukiLogo} alt =''/> 
-                </div>
-            </div>
-            <div className='company__section'> 
                 <h4>CHEMICAL</h4>
                 <div className='company__logos'>
                     <img className = 'ilogo' src = {FMCLogo} alt =''/> 
                     <img className = 'ilogo' src = {GrasimLogo} alt =''/> 
-                    <img className = 'ilogo' src = {HMELLogo} alt =''/> 
                     <img className = 'ilogo' src = {HuntsmanLogo} alt =''/>
                     <img className = 'ilogo' src = {MeghmaniLogo} alt =''/> 
                     <img className = 'ilogo' style={{width:"40vh"}} src = {OrientLogo} alt =''/> 
@@ -99,6 +92,13 @@ function Clients() {
                 <div className='company__logos'>
                     <img className = 'ilogo' src = {AdaniLogo} alt =''/> 
                     <img className = 'ilogo' src = {AllandSayajiLogo} alt =''/> 
+                </div>
+            </div>
+            <div className='company__section'> 
+                <h4>AUTOMOBILE</h4>
+                <div className='company__logos'>
+                    <img className = 'ilogo' src = {TataMoterLogo} alt =''/> 
+                    <img className = 'ilogo' src = {SuzukiLogo} alt =''/> 
                 </div>
             </div>
         </div>

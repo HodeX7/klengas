@@ -80,12 +80,10 @@ function MetalFilter() {
           </p>
         </div>
         <h4>APPLICATIONS</h4>
-        <div className="product__content" style={{ display: "flex" }}>
+        <div className="product__content" style={{ display: "flex",maxWidth:"200vw" }}>
           <ul style={{ paddingRight: "10%" }}>
             <li>Corrosive Fluids</li>
             <li>Steam</li>
-          </ul>
-          <ul>
             <li>Thermic Fluids</li>
             <li>Amine, Glycol</li>
             <li>High Temperature applications in liquids and gases</li>
@@ -154,12 +152,10 @@ function MetalFilter() {
           </p>
         </div>
         <h4>APPLICATIONS</h4>
-        <div className="product__content" style={{ display: "flex" }}>
+        <div className="product__content" style={{ display: "flex",maxWidth:"200vw" }}>
           <ul style={{ paddingRight: "10%" }}>
             <li>Corrosive Fluids</li>
             <li>Steam</li>
-          </ul>
-          <ul>
             <li>Thermic Fluids</li>
             <li>Amine, Glycol</li>
             <li>High Temperature applications in liquids and gases</li>

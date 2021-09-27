@@ -84,13 +84,11 @@ function LargeDiameterFilter() {
           </p>
         </div>
         <h4>APPLICATIONS</h4>
-        <div className="product__content" style={{ display: "flex" }}>
+        <div className="product__content" style={{ display: "flex", maxWidth:'200vw' }}>
           <ul style={{ paddingRight: "10%" }}>
             <li>Amine, Glycol</li>
             <li>RO Pre-filtration</li>
             <li>Process Water</li>
-          </ul>
-          <ul>
             <li>White Fuels</li>
             <li>Brine, Seawater</li>
             <li>Naphtha, HC Condensate</li>
@@ -159,12 +157,10 @@ function LargeDiameterFilter() {
           </p>
         </div>
         <h4>APPLICATIONS</h4>
-        <div className="product__content" style={{ display: "flex" }}>
+        <div className="product__content" style={{ display: "flex",maxWidth:"200vw" }}>
           <ul style={{ paddingRight: "10%" }}>
             <li>Lube Oils</li>
             <li>Process Water</li>
-          </ul>
-          <ul>
             <li>Amine, Glycol</li>
             <li>Brine, Seawater</li>
           </ul>

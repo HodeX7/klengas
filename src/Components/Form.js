@@ -55,13 +55,12 @@ function Form() {
       <input type="text" className="input" name='from__country'></input>
       <h6>What can we help you with today? *</h6>
       <input type="text" className="input" name='message'></input>
-      <br />
-      <input
+      {/* <input
         type="file"
         style={{ cursor: "pointer" }}
         onChange={(e) => setUploadFile(e.target.files)}
-      />
-      <br />
+      /> */}
+      <p>NOTE : Please provide complete details over mail</p>
       <div className="checkbox">
         <input type="checkbox" style={{ cursor: "pointer" }} />
         <span className="checkbox">
