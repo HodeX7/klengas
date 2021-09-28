@@ -10,8 +10,9 @@
     transform: scale(1.15);
 }
 .mainImage1{
-    object-fit: contain;
+    object-fit: cover;
     /* height: 60vh; */
+    width: 100vw;
     background-color:  transparent;
 }
 .title{
