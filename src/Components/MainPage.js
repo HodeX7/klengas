@@ -44,7 +44,7 @@ function MainPage() {
 
                     {/* products */}
                     <Route path="/bagfilters"  component={BagFilter} />
-                    <Route path="/depthfilters"  component={DepthFilter} />
+                    <Route path="/skidsandpackages"  component={DepthFilter} />
                     <Route path="/largediameterfilters"  component={LargeDiameterFilter} />
                     <Route path="/metalfilters"  component={MetalFilter} />
                     <Route path="/pleatedfilters"  component={PleatedFilters} />

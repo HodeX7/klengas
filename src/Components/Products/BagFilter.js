@@ -1,6 +1,5 @@
 import React from "react";
 import "./BagFilter.css";
-import image from "../../assets/images/bagFilterBanner.jpg";
 import mainImage from "../../assets/images/pleatedFiltersBanner.jpg";
 import image1 from "../../assets/Product images/bag filter/Bag filter.jpg"
 import image2 from "../../assets/Product images/bag filter/Bag_Filter_1.png"

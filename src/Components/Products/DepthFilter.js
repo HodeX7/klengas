@@ -1,194 +1,47 @@
 import React from "react";
 import "./BagFilter.css";
-import image from "../../assets/images/logo.png";
 import mainImage from "../../assets/images/pleatedFiltersBanner.jpg";
+import image1 from "../../assets/Product images/bag filter/Bag filter.jpg"
+import image2 from "../../assets/Product images/bag filter/Bag_Filter_1.png"
+import image3 from "../../assets/Product images/bag filter/Bag_Filter_2.png"
+import image4 from "../../assets/Product images/bag filter/Bag_Filter_3.png"
 
-
-import  KGTPolypromaxCartridgefilter from "../../assets/Catalogue/06 KGT_Polypromax_Pleated_Cartridge_Filter_Catalogue_R0.pdf"
-import  KGTPolyproCartridgefilter from "../../assets/Catalogue/05 KGT_Polypro_Pleated_Cartridge_Filter_Catalogue_R0.pdf"
-
-import image1 from "../../assets/Product images/polypromax/3.png"
-import image2 from "../../assets/Product images/polypromax/Picture1.png"
-import image3 from "../../assets/Product images/polypromax/polypromax 1.png"
-import image4 from "../../assets/Product images/polypromax/polypromax.png"
-
-
-import image5 from "../../assets/Product images/polypro/polypro filter 1.png"
-import image6 from "../../assets/Product images/polypro/polypro filter 2.png"
-import image7 from "../../assets/Product images/polypro/polypro filter 3.png"
-import image8 from "../../assets/Product images/polypro/polypro filter 4.png"
-
-function DepthFilter() {
+import KGTBagfilter from "../../assets/Catalogue/01 KGT_Bag_Filter_Catalogue_R1.pdf"
+function BagFilter() {
   return (
     <div className="products__page">
       <img src={mainImage} alt="" className="mainImage" />
       <div className="product__details">
+        <div style={{display:'flex', alignItems:'center', justifyContent:"center"}}>
+          <h3>KGT Filtration Skids and Packages</h3>
+        </div>
         <div className="image__section">
-          <img src={image1} alt="" className="product__image" style={{ height : "20vh" , width : "20vw"}}/>
-          <img src={image2} alt="" className="product__image" style={{ height : "20vh" , width : "20vw", marginLeft : "3px"}}/>
-          <img src={image3} alt="" className="product__image" style={{ height : "20vh" , width : "20vw", marginLeft : "3px"}}/>
-          <img src={image4} alt="" className="product__image" style={{ height : "20vh" , width : "20vw", marginLeft : "3px"}}/>
+          <img src={image1} alt="" className="product__image" />
+          <img src={image2} alt="" className="product__image" />
+          <img src={image3} alt="" className="product__image" />
+          <img src={image4} alt="" className="product__image" />
         </div>
-        <div className="product__catalogue">
-          {" "}
-          <a href={KGTPolypromaxCartridgefilter} target="_blank">Download Catalogue</a>
-        </div>
-        <h4>About</h4>
         <div className="product__content">
           <p>
-            The KGT Polypromax Cartridge filter has absolute removal rating
-            enabling removal of contaminations with consistent efficiency for
-            critical applications, with option of nominal ratings for less
-            critical applications like prefiltration. Polypromax is modified
-            Polypro with higher area.
+          Klengas Tech LLP has been managed by team of highly experienced professionals in the field of design, engineering, and project execution of process equipment, skidding and packaging. The company has engaged skilled engineers to do engineering work, project monitoring, project execution, production planning. We are supported by our dedicated sub-contractors who are fully equipped with modern tools and tackles. Engineering design is supported by software like AutoCAD, solid works, PVelite and Primavera.
           </p>
           <p>
-            Apart from the wide chemical compatibility, the filters are suitable
-            for either high flow rate or high viscous liquid, having a high dirt
-            holding capacity.
+          We are committed to quality work, timely delivery and customer satisfaction. Our expertise is in field of:
           </p>
-          <p>
-            The KGT Polypromax cartridge filter is available in various removal
-            ratings enabling it to handle a wide range of fluids with a
-            considerable dirt holding capacity.
-          </p>
-        </div>
-        <h4>Advantages</h4>
-        <div className="product__content">
           <ul>
-            <li>
-              Due to wide range of pore size selection, a variety of liquids
-              from acids to alkalis; from seawater to process water; and lube
-              oils to petroleum fluid.
-            </li>
-            <li>
-              Standard dimensions ensures fitment in most standard housings with
-              varied length availability. (other dimensions available on
-              request)
-            </li>
-            <li>
-              Available in 2.5, 5, 10, 20, 30, 40 inch lengths (Other lengths
-              available on request.)
-            </li>
-            <li>
-              All materials of construction are available in 21CFR Compliant
-              materials and have passed as per USP class VI Biological tests for
-              plastics @ 121°C.
-            </li>
-            <li>Available in both absolute and nominal ratings</li>
+            <li>Sizing and Selection of Filter elements along with filter vessels.</li>
+            <li>Design, engineering, procurement, manufacturing, testing and supply of filter vessel & filtration systems, packages & skids</li>
+            <li>Filter housing with filter elements for general and aggressive application in polypropylene, polyester, glass fibre, PTFE and PES in standard and large diameters.</li>
+            <li> Lube Oil Conditioning Packages for removal of dissolved moisture and gases from lube and hydraulic fluids.</li>
+            <li>Complete skid based filtration package having inlet strainer, pump, filter vessels with interconnecting piping, valves and associated instrumentation having an option of cover with canopy.</li>
           </ul>
-        </div>
-        <h4>DIFFERENTIAL PRESSURE DATA</h4>
-        <div className="product__content">
-          <p>
-            For Normal Flow from Outside to Inside for liquids compatible with
-            the filter media, the maximum differential pressure is
-          </p>
-          <p>Polypropylene Medium: 3.4 bar d @ 25°C & 2.0 bar d @80°C</p>
-        </div>
-        <h4>APPLICATIONS</h4>
-        <div className="product__content" style={{ display: "flex" }}>
-          <ul style={{ paddingRight: "10%" }}>
-            <li>Oil & Gas</li>
-            <li>Power Generation</li>
-            <li>Process & Waste Water</li>
-            <li>Electronics</li>
-            <li>Pharmaceuticals</li>
-            <li>Food & Beverages</li>
-          </ul>
+          <p>Klengas team has designed and delivered packages to esteemed clientele like HPCL-Mittal Refinery Limited, Oriental Aromatics Limited, Meghmani Finechem Limited, Petronas Lubricants (India) Private Limited, Indorama Eleme Fertilizers and Petrochemicals Limited, Oil & Natural Gas Corporation Limited to name a few. Our team constantly upgrades and keeps abreast of the latest advances in industrial technology. As a result, we are able to develop and provide the state-of the art systems and solutions with optimum energy consumption and better life cycle. Klengas Tech LLP is committed to use highly energy efficient equipment to conserve energy, save environment and reduce carbon emission for a better living.</p>
         </div>
       </div>
       <hr></hr>
-      <div className="product__details">
-        <div className="image__section">
-          <img src={image5} alt="" className="product__image" style={{ height : "20vh" , width : "20vw"}}/>
-          <img src={image6} alt="" className="product__image" style={{ height : "20vh" , width : "20vw", marginLeft : "3px"}}/>
-          <img src={image7} alt="" className="product__image" style={{ height : "20vh" , width : "20vw", marginLeft : "3px"}}/>
-          <img src={image8} alt="" className="product__image" style={{ height : "20vh" , width : "20vw", marginLeft : "3px"}}/>
-        </div>
-        <div className="product__catalogue">
-          {" "}
-          <a href={KGTPolyproCartridgefilter} target="_blank">Download Catalogue</a>
-        </div>
-        <h4>About</h4>
-        <div className="product__content">
-          <p>
-            The KGT Polypro Cartridge filter has absolute removal rating
-            enabling removal of contaminations with consistent efficiency for
-            critical applications, with option of nominal ratings for less
-            critical applications like prefiltration.
-          </p>
-          <p>
-            Apart from the wide chemical compatibility, the filters are suitable
-            for either high flow rate or high viscous liquid, having a high dirt
-            holding capacity.
-          </p>
-          <p>
-            The KGT Polypro cartridge filter is available in various removal
-            ratings enabling it to handle a wide range of fluids with a
-            considerable dirt holding capacity.
-          </p>
-        </div>
-        <h4>Advantages</h4>
-        <div className="product__content">
-          <ul>
-            <li>
-              Due to wide range of pore size selection, a variety of liquids
-              from acids to alkalis; from seawater to process water; and lube
-              oils to petroleum fluid.
-            </li>
-            <li>
-              Standard dimensions ensures fitment in most standard housings with
-              varied length availability. (other dimensions available on
-              request)
-            </li>
-            <li>
-              Available in 2.5, 5, 10, 20, 30, 40 inch lengths (Other lengths
-              available on request.)
-            </li>
-            <li>
-              All materials of construction are available in 21CFR Compliant
-              materials and have passed as per USP class VI Biological tests for
-              plastics @ 121°C.
-            </li>
-            <li>Available in both absolute and nominal ratings</li>
-          </ul>
-        </div>
-        <h4>DIFFERENTIAL PRESSURE DATA</h4>
-        <div className="product__content">
-          <p>
-            For Normal Flow from Outside to Inside for liquids compatible with
-            the filter media, the maximum differential pressure is
-          </p>
-          <p>Polypropylene Medium: 3.4 bar d @ 25°C & 2.0 bar d @80°C</p>
-        </div>
-        <h4>APPLICATIONS</h4>
-        <div className="product__content" style={{ display: "flex" }}>
-          <ul style={{ paddingRight: "10%" }}>
-            <li>Oil & Gas</li>
-            <li>Power Generation</li>
-            <li>Process & Waste Water</li>
-          </ul>
-          <ul>
-            <li>Electronics</li>
-            <li>Pharmaceuticals</li>
-            <li>Food & Beverages</li>
-          </ul>
-        </div>
-      </div>
-      <hr></hr>
-      <div className="product__details">
-        <p>We also deal in</p>
-        <ol>
-          <li>PTFE</li>
-          <li>Polyster</li>
-          <li>Glass Fibre</li>
-          <li>Oil Absorbing Media</li>
-        </ol>
-        <h4>For More Details Contact Us</h4>
-      </div>
+      <div className="product__details"></div>
     </div>
   );
 }
 
-export default DepthFilter;
+export default BagFilter;

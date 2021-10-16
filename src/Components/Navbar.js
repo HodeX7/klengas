@@ -70,9 +70,6 @@ function Navbar() {
                     <Link to="/bagfilters">Bag Filters</Link>
                   </MenuItem>
                   <MenuItem>
-                    <Link to="/depthfilters">Depth Filters</Link>
-                  </MenuItem>
-                  <MenuItem>
                     <Link to="/largediameterfilters">Large Diameter Filters</Link>
                   </MenuItem>
                   <MenuItem>
@@ -80,6 +77,9 @@ function Navbar() {
                   </MenuItem>
                   <MenuItem>
                     <Link to="/pleatedfilters">Pleated Filters</Link>
+                  </MenuItem>
+                  <MenuItem>
+                    <Link to="/skidsandpackages">Filtration Skids and Packages</Link>
                   </MenuItem>
               </Menu>
           </Link>
