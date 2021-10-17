@@ -30,7 +30,20 @@
     width: 100vw;
     object-fit: cover;
 }
-
+.product__title{
+    width: 80%;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.product__image__skid{
+    height: 20vh;
+    margin-right: 10vw;
+    margin-left: 2vw;
+    object-fit: contain;
+    margin-bottom: 5vh;
+}
 /* .image__section{
     display: flex;
     flex-direction: row;

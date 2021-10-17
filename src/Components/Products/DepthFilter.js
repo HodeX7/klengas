@@ -1,10 +1,14 @@
 import React from "react";
 import "./BagFilter.css";
 import mainImage from "../../assets/images/pleatedFiltersBanner.jpg";
-import image1 from "../../assets/Product images/bag filter/Bag filter.jpg"
-import image2 from "../../assets/Product images/bag filter/Bag_Filter_1.png"
-import image3 from "../../assets/Product images/bag filter/Bag_Filter_2.png"
-import image4 from "../../assets/Product images/bag filter/Bag_Filter_3.png"
+import image1 from "../../assets/Product images/skid/SKIDS_1.jpg"
+import image2 from "../../assets/Product images/skid/SKIDS_2.jpg"
+import image3 from "../../assets/Product images/skid/SKIDS_3.jpg"
+import image4 from "../../assets/Product images/skid/SKIDS_4.jpg"
+import image5 from "../../assets/Product images/skid/SKIDS_5.jpg"
+import image6 from "../../assets/Product images/skid/SKIDS_6.jpg"
+import image7 from "../../assets/Product images/skid/SKIDS_7.jpg"
+import image8 from "../../assets/Product images/skid/SKIDS_8.jpg"
 
 import KGTBagfilter from "../../assets/Catalogue/01 KGT_Bag_Filter_Catalogue_R1.pdf"
 function BagFilter() {
@@ -12,14 +16,20 @@ function BagFilter() {
     <div className="products__page">
       <img src={mainImage} alt="" className="mainImage" />
       <div className="product__details">
-        <div style={{display:'flex', alignItems:'center', justifyContent:"center"}}>
+        <div className='product__title'>
           <h3>KGT Filtration Skids and Packages</h3>
         </div>
         <div className="image__section">
-          <img src={image1} alt="" className="product__image" />
-          <img src={image2} alt="" className="product__image" />
-          <img src={image3} alt="" className="product__image" />
-          <img src={image4} alt="" className="product__image" />
+          <img src={image1} alt="" className="product__image__skid" />
+          <img src={image2} alt="" className="product__image__skid" />
+          <img src={image6} alt="" className="product__image__skid" />
+          <img src={image3} alt="" className="product__image__skid" />
+        </div>
+        <div className="image__section">
+          <img src={image4} alt="" className="product__image__skid" />
+          <img src={image5} alt="" className="product__image__skid" />
+          <img src={image7} alt="" className="product__image__skid" />
+          <img src={image8} alt="" className="product__image__skid" />
         </div>
         <div className="product__content">
           <p>

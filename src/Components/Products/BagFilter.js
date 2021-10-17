@@ -12,7 +12,9 @@ function BagFilter() {
     <div className="products__page">
       <img src={mainImage} alt="" className="mainImage" />
       <div className="product__details">
-        <h3 style={{textTransform:"uppercase",marginLeft:'30vw'}}>KGT Bag filter</h3>
+      <div className='product__title'>
+          <h3>KGT Bag Filters</h3>
+        </div>
         <div className="image__section">
           <img src={image1} alt="" className="product__image" />
           <img src={image2} alt="" className="product__image" />
