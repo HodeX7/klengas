@@ -9,12 +9,14 @@ import image5 from "../../assets/Product images/skid/SKIDS_5.jpg"
 import image6 from "../../assets/Product images/skid/SKIDS_6.jpg"
 import image7 from "../../assets/Product images/skid/SKIDS_7.jpg"
 import image8 from "../../assets/Product images/skid/SKIDS_8.jpg"
-
-import KGTBagfilter from "../../assets/Catalogue/01 KGT_Bag_Filter_Catalogue_R1.pdf"
+import image2a from '../../assets/images/banner3.jpg';
+import image3a from '../../assets/images/banner4.png';
+import CarouselContainer from '../../Components/carouselContainer'
+// import KGTBagfilter from "../../assets/Catalogue/01 KGT_Bag_Filter_Catalogue_R1.pdf"
 function BagFilter() {
   return (
     <div className="products__page">
-      <img src={mainImage} alt="" className="mainImage" />
+      <CarouselContainer image4={image3a} image2={mainImage} image3={image2a}/>
       <div className="product__details">
         <div className='product__title'>
           <h3>KGT Filtration Skids and Packages</h3>

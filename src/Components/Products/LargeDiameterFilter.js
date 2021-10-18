@@ -88,7 +88,7 @@ function LargeDiameterFilter() {
         </div>
         <h4>APPLICATIONS</h4>
         <div className="product__content" style={{ display: "flex", maxWidth:'200vw' }}>
-          <ul style={{ paddingRight: "10%" }}>
+          <ul>
             <li>Amine, Glycol</li>
             <li>RO Pre-filtration</li>
             <li>Process Water</li>
@@ -164,7 +164,7 @@ function LargeDiameterFilter() {
         </div>
         <h4>APPLICATIONS</h4>
         <div className="product__content" style={{ display: "flex",maxWidth:"200vw" }}>
-          <ul style={{ paddingRight: "10%" }}>
+          <ul>
             <li>Lube Oils</li>
             <li>Process Water</li>
             <li>Amine, Glycol</li>

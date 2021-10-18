@@ -22,6 +22,7 @@
 }
 .clients{
     margin-left: 5vw;
+    overflow-x: hidden ;
 }
 .company__logos{
     margin-top: 6vh;

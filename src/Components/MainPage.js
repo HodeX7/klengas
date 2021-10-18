@@ -20,6 +20,9 @@ import MetalFilter from './Products/MetalFilter'
 import PleatedFilters from './Products/PleatedFilters'
 import Industries from './Industries/Industries'
 import Clients from '../Clients/Clients'
+import image2 from './../assets/images/banner2.jpg';
+import image3 from './../assets/images/banner3.jpg';
+import image4 from './../assets/images/banner4.png';
 
 function MainPage() {
     return (
@@ -60,7 +63,7 @@ function MainPage() {
 function merged(){
     return(
         <>
-            <CarouselContainer/>
+            <CarouselContainer image2={image2} image3={image3} image4={image4} />
             <HeroSection />
         </>
     )

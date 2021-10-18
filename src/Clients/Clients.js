@@ -1,7 +1,7 @@
 import React from 'react'
 import './Clients.css';
 import mainImage from "./../assets/images/clientsBanner.jpg";
-import TataMoterLogo from './../assets/Logos/clients/Auto/2017-logo-Tata-Motors.jpg'
+import TataMoterLogo from './../assets/Logos/clients/Auto/TATA_MOTORS.png'
 import SuzukiLogo from './../assets/Logos/clients/Auto/SUZUKI_MOTORS.png'
 import CarltonLogo from './../assets/Logos/clients/Chemical/CARLTON_LOGO.jpg'
 import FMCLogo from './../assets/Logos/clients/Chemical/fmc_corporation_logo.jpg'
@@ -23,6 +23,7 @@ import IndianOilLogo from './../assets/Logos/clients/Oil & Gas/IndianOil_Logo_Fu
 import NayaraLogo from './../assets/Logos/clients/Oil & Gas/NAYARA_LOGO.png'
 import ONGCLogo from './../assets/Logos/clients/Oil & Gas/ONGC_LOGO.png'
 import PetronasLogo from './../assets/Logos/clients/Oil & Gas/Petronas_Logo.svg.png'
+import LSRLogo from './../assets/Logos/clients/Chemical/LSR.png'
 
 
 import AlembicLogo from './../assets/Logos/clients/Pharma/ALEMBIC.png'
@@ -43,7 +44,7 @@ function Clients() {
         <div className='clients'>
             <h1 className='title'>OUR ELITE CUSTOMERS</h1>
             <div className='company__section'> 
-                <h4>OIL & GAS & REFINERIES </h4>
+                <h4>OIL & GAS and REFINERIES </h4>
                 <div className='company__logos'>
                     <img className = 'ilogo' src = {IndianOilLogo} alt =''/> 
                     <img className = 'ilogo' src = {NayaraLogo} alt =''/> 
@@ -54,20 +55,20 @@ function Clients() {
             <div className='company__section'> 
                 <h4>PHARMACEUTICALS</h4>
                 <div className='company__logos'>
-                    <img className = 'ilogo' src = {AlembicLogo} alt =''/> 
-                    <img className = 'ilogo' src = {ApotheconLogo} alt =''/> 
-                    <img className = 'ilogo' src = {CadilaLogo} alt =''/> 
-                    <img className = 'ilogo' src = {ConcordLogo} alt =''/> 
-                    <img className = 'ilogo' src = {ElysiumLogo} alt =''/> 
-                    <img className = 'ilogo' src = {EmcureLogo} alt =''/> 
-                    <img className = 'ilogo' src = {LaRenonLogo} alt =''/> 
-                    <img className = 'ilogo' src = {TorrentLogo} alt =''/> 
+                    <img className = 'ilogo' style={{height:"15vh"}} src = {AlembicLogo} alt =''/> 
+                    <img className = 'ilogo' style={{height:"8vh"}}src = {ApotheconLogo} alt =''/> 
+                    <img className = 'ilogo' style={{height:"15vh"}} src = {CadilaLogo} alt =''/> 
+                    <img className = 'ilogo' style={{height:"15vh"}} src = {ConcordLogo} alt =''/> 
+                    <img className = 'ilogo' style={{height:"8vh"}}src = {ElysiumLogo} alt =''/> 
+                    <img className = 'ilogo' style={{height:"8vh"}} src = {EmcureLogo} alt =''/> 
+                    <img className = 'ilogo' style={{height:"20vh"}} src = {LaRenonLogo} alt =''/> 
+                    <img className = 'ilogo' style={{height:"15vh"}}src = {TorrentLogo} alt =''/> 
                     <img className = 'ilogo' src = {ZydusLogo} alt =''/> 
                 </div>
                 <h4>EPC COMPANIES </h4>
                 <div className='company__logos'>
-                    <img className = 'ilogo' src = {CarltonLogo} alt =''/> 
-                    <img className = 'ilogo' src = {HalLogo} alt =''/> 
+                    <img className = 'ilogo' style={{height:"15vh"}} src = {HalLogo} alt =''/> 
+                    <img className = 'ilogo' style={{height:"10vh"}} src = {CarltonLogo} alt =''/> 
                 </div>
             </div>
             <div className='company__section'> 
@@ -84,21 +85,22 @@ function Clients() {
                 <div className='company__logos'>
                     <img className = 'ilogo' src = {PetronasLogo} alt =''/>  
                     <img className = 'ilogo' src = {IEFCLLogo} alt =''/> 
-                    <img className = 'ilogo' src = {IndoramaLogo} alt =''/> 
+                    <img className = 'ilogo' style={{height:"8vh"}} src = {IndoramaLogo} alt =''/> 
+                    <img className = 'ilogo' style={{height:"15vh"}} src = {LSRLogo} alt =''/> 
                 </div>
             </div>
             <div className='company__section'> 
                 <h4>FOODS AND BEVERAGES</h4>
                 <div className='company__logos'>
-                    <img className = 'ilogo' src = {AdaniLogo} alt =''/> 
-                    <img className = 'ilogo' src = {AllandSayajiLogo} alt =''/> 
+                    <img style={{height:"15vh"}} className = 'ilogo' src = {AdaniLogo} alt =''/> 
+                    <img style={{height:"8vh"}} className = 'ilogo' src = {AllandSayajiLogo} alt =''/> 
                 </div>
             </div>
             <div className='company__section'> 
                 <h4>AUTOMOBILE</h4>
                 <div className='company__logos'>
                     <img className = 'ilogo' src = {TataMoterLogo} alt =''/> 
-                    <img className = 'ilogo' src = {SuzukiLogo} alt =''/> 
+                    <img style={{height:"20vh"}} className = 'ilogo' src = {SuzukiLogo} alt =''/> 
                 </div>
             </div>
         </div>

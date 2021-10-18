@@ -84,7 +84,7 @@ function MetalFilter() {
         </div>
         <h4>APPLICATIONS</h4>
         <div className="product__content" style={{ display: "flex",maxWidth:"200vw" }}>
-          <ul style={{ paddingRight: "10%" }}>
+          <ul>
             <li>Corrosive Fluids</li>
             <li>Steam</li>
             <li>Thermic Fluids</li>
@@ -159,7 +159,7 @@ function MetalFilter() {
         </div>
         <h4>APPLICATIONS</h4>
         <div className="product__content" style={{ display: "flex",maxWidth:"200vw" }}>
-          <ul style={{ paddingRight: "10%" }}>
+          <ul>
             <li>Corrosive Fluids</li>
             <li>Steam</li>
             <li>Thermic Fluids</li>

@@ -89,7 +89,7 @@ function PleatedFilters() {
         </div>
         <h4>APPLICATIONS</h4>
         <div className="product__content" style={{ display: "flex", maxWidth:"200vw"}}>
-          <ul style={{ paddingRight: "10%" }}>
+          <ul>
             <li>Oil & Gas</li>
             <li>Power Generation</li>
             <li>Process & Waste Water</li>
@@ -168,7 +168,7 @@ function PleatedFilters() {
         </div>
         <h4>APPLICATIONS</h4>
         <div className="product__content" style={{ display: "flex", maxWidth: "200vw" }}>
-          <ul style={{ paddingRight: "10%" }}>
+          <ul>
             <li>Oil & Gas</li>
             <li>Power Generation</li>
             <li>Process & Waste Water</li>

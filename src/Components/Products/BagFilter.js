@@ -77,7 +77,7 @@ function BagFilter() {
         </div>
         <h4>APPLICATIONS</h4>
         <div className="product__content" style={{ display: "flex", }}>
-          <ul style={{ paddingRight: "10%" }}>
+          <ul>
             <li>Process Water</li>
             <li>Lube Oils</li>
             <li>Amine, Glycol</li>
