@@ -6,7 +6,10 @@
     margin-bottom: 7vh;
     margin-right: 10vw;
 }
-
+.main__section{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
 .hero__images{
     display: flex;
 }
@@ -34,10 +37,6 @@
     text-decoration: none;
 }
 @media only screen and (max-width:900px) {
-.main__section{
-    overflow-x: hidden;
-    overflow-y: auto;
-}
     .hero__images{
         display: flex;
         flex-direction: column;
@@ -51,6 +50,7 @@
         flex-direction: column;
         justify-content: center ;
         align-items: center;
+        width: 100%;
     }
 
     

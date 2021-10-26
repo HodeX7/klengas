@@ -95,7 +95,7 @@ function HeroSection() {
 
       {/* RESPONSIVENESS PENDING */}
 
-      <>
+        <>
         <h5 className="featured__heading">FEATURED SECTION</h5>
         <div className="featured__section">
           {/* https://www.youtube.com/watch?v=1KmS9DqIBbw */}
