@@ -31,11 +31,11 @@ function Navbar() {
       <div className="navbar__rightside">
         <div className="links" id={showlinks ? "hidden" : ""}>
           <Link to="/">
-            <a>Home</a>
+            <a onClick={() => setShowlinks(!showlinks)}>Home</a>
             
           </Link>
           <Link to="/aboutus">
-            <a>About Us</a>
+            <a onClick={() => setShowlinks(!showlinks)}>About Us</a>
             
           </Link>
           <Link >
@@ -43,22 +43,22 @@ function Navbar() {
               
               <Menu menuButton={<MenuButton className="menu__button">Industries</MenuButton>}>
                   <MenuItem> 
-                    <Link to="/oilandgas">Oil and Gas</Link>
+                    <Link onClick={() => setShowlinks(!showlinks)} to="/oilandgas">Oil and Gas</Link>
                   </MenuItem>
                   <MenuItem> 
-                    <Link to="/pharmaceuticals">Pharmaceuticals</Link>
+                    <Link onClick={() => setShowlinks(!showlinks)} to="/pharmaceuticals">Pharmaceuticals</Link>
                   </MenuItem>
                   <MenuItem> 
-                    <Link to="/foodandbeverages">Food and Beverages</Link>
+                    <Link onClick={() => setShowlinks(!showlinks)} to="/foodandbeverages">Food and Beverages</Link>
                   </MenuItem>
                   <MenuItem> 
-                    <Link to="/chemicals">Chemicals and Petrochemicals</Link>
+                    <Link onClick={() => setShowlinks(!showlinks)} to="/chemicals">Chemicals and Petrochemicals</Link>
                   </MenuItem>
                   <MenuItem> 
-                    <Link to="/waterprocessing">Water Processing</Link>
+                    <Link onClick={() => setShowlinks(!showlinks)} to="/waterprocessing">Water Processing</Link>
                   </MenuItem>
                   <MenuItem> 
-                    <Link to="/powergeneration">Power Generation</Link>
+                    <Link onClick={() => setShowlinks(!showlinks)} to="/powergeneration">Power Generation</Link>
                   </MenuItem>
               </Menu>
           </Link>
@@ -67,28 +67,28 @@ function Navbar() {
             {/* <Menu name = 'Products' option1="Oil And Gas" option2="Pharma" option3="Food and Beverages"/> */}
             <Menu menuButton={<MenuButton className="menu__button">Products</MenuButton>}>
                   <MenuItem>
-                    <Link to="/bagfilters">Bag Filters</Link>
+                    <Link onClick={() => setShowlinks(!showlinks)} to="/bagfilters">Bag Filters</Link>
                   </MenuItem>
                   <MenuItem>
-                    <Link to="/largediameterfilters">Large Diameter Filters</Link>
+                    <Link onClick={() => setShowlinks(!showlinks)} to="/largediameterfilters">Large Diameter Filters</Link>
                   </MenuItem>
                   <MenuItem>
-                    <Link to="/metalfilters">Metal Filters</Link>
+                    <Link onClick={() => setShowlinks(!showlinks)} to="/metalfilters">Metal Filters</Link>
                   </MenuItem>
                   <MenuItem>
-                    <Link to="/pleatedfilters">Pleated Filters</Link>
+                    <Link onClick={() => setShowlinks(!showlinks)} to="/pleatedfilters">Pleated Filters</Link>
                   </MenuItem>
                   <MenuItem>
-                    <Link to="/skidsandpackages">Filtration Skids and Packages</Link>
+                    <Link onClick={() => setShowlinks(!showlinks)} to="/skidsandpackages">Filtration Skids and Packages</Link>
                   </MenuItem>
               </Menu>
           </Link>
           <Link to="/clients">
-            <a>Clients</a>
+            <a onClick={() => setShowlinks(!showlinks)}>Clients</a>
 
           </Link>
           <Link to="/contact">
-            <a>Contact Us</a>
+            <a onClick={() => setShowlinks(!showlinks)}>Contact Us</a>
 
           </Link>
         </div>

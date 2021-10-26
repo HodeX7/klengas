@@ -11,7 +11,7 @@
 }
 .mainImage1{
     object-fit: contain;
-    /* height: 60vh; */
+    width: 100%;
     background-color:  transparent;
 }
 .title{
@@ -23,6 +23,7 @@
 .clients{
     margin-left: 5vw;
     overflow-x: hidden ;
+    overflow-y: auto;
 }
 .company__logos{
     margin-top: 6vh;
