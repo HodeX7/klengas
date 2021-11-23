@@ -22,7 +22,7 @@ function PleatedFilters() {
       <img src={mainImage} alt="" className="mainImage" />
       <div className="product__details">
         <div className='product__title'>
-          <h3>KGT Polypromax Cartridge filter</h3>
+          <h3>KGT Polypromax Cartridge Filter</h3>
         </div>
         <div className="image__section">
           <img src={image1} alt="" className="product__image" style={{ height : "20vh" , width : "20vw"}}/>
@@ -102,7 +102,7 @@ function PleatedFilters() {
       <hr></hr>
       <div className="product__details">
         <div className='product__title'>
-          <h3>KGT Polypro Cartridge filter</h3>
+          <h3>KGT Polypro Cartridge Filter</h3>
         </div>      
         <div className="image__section">
           <img src={image5} alt="" className="product__image" style={{ height : "20vh" , width : "20vw"}}/>

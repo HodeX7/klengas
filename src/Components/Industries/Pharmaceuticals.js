@@ -17,6 +17,9 @@ function Pharmaceuticals() {
         <h3 className="application">APPLICATIONS</h3>
         <h4 className="application ong">Pharmaceuticals</h4>
         <div className="applications">
+        <hr></hr>
+            <h3 style={{display:'flex', justifyContent:"center"}}>LVP</h3>
+          
             <Card
               img={mainImage}
               title="Pre filtration"
@@ -48,6 +51,8 @@ function Pharmaceuticals() {
               content="To ensure sterile air/ nitrogen is used, it is important to use validated sterile filter usually PTFE (Hydrophobic media)."
             />
             <span></span>
+            <hr></hr>
+            <h3 style={{display:'flex', justifyContent:"center"}}>SVP</h3>
             <Card
               img={mainImage}
               title="Pre-filtration"
@@ -69,6 +74,9 @@ function Pharmaceuticals() {
               content="To maintain sterility of the system in which parenterals are produced, it is important to use validated sterile filters usually PTFE filters."
             />
             <span></span>
+            <hr></hr>
+            <h3 style={{display:'flex', justifyContent:"center"}}>WATER</h3>
+            
             <Card
               img={mainImage}
               title="Removal of silica fines"
@@ -96,7 +104,7 @@ function Pharmaceuticals() {
             />
             <Card
               img={mainImage}
-              title="microbial & Particulate control in sterilization of water"
+              title="Microbial & Particulate control in sterilization of water"
               content="PES validated sterile filters are used"
             />
             <Card
@@ -105,6 +113,9 @@ function Pharmaceuticals() {
               content="Usually for protecting RO membranes and enhancing the life of RO membrane is the objective. Good Absolute rated filters ensure consistent quality of feed water to RO"
             />
             <span></span>
+            <hr></hr>
+            <h3 style={{display:'flex', justifyContent:"center"}}>API</h3>
+            
             <Card
               img={mainImage}
               title="Colour/Impurities removal"
@@ -145,6 +156,9 @@ function Pharmaceuticals() {
               title="Air/Nitrogen Filtration"
               content="As per particle sizes and contamination loading, Polymeric or metal filters can be used from 1 - 40 micron as per required cleanliness"
             />
+            <hr></hr>
+            <h3 style={{display:'flex', justifyContent:"center"}}>STERILE API</h3>
+            
             <span></span>
             <Card
               img={mainImage}
@@ -167,6 +181,9 @@ function Pharmaceuticals() {
               content="PES or Nylon Sterile validated 0.2micron rated filters are used to maintain sterile water"
             />
             <span></span>
+            <hr></hr>
+            <h3 style={{display:'flex', justifyContent:"center"}}>FORMULATION AND BIOTECH</h3>
+            
             <Card
               img={mainImage}
               title="Coarse particulate filtration for chemicals, products & solvents"

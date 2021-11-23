@@ -22,7 +22,7 @@ function LargeDiameterFilter() {
       <img src={mainImage} alt="" className="mainImage" />
       <div className="product__details">
         <div className='product__title'>
-          <h3>KGT Large Flow filter</h3>
+          <h3>KGT Large Flow Filter</h3>
         </div>
         <div className="image__section">
           <img src={image1} alt="" className="product__image" style={{ height : "20vh" , width : "20vw"}}/>
@@ -101,7 +101,7 @@ function LargeDiameterFilter() {
       <hr></hr>
       <div className="product__details">
         <div className='product__title'>
-          <h3>KGT SMITMANN Cartridge filter</h3>
+          <h3>KGT SMITMANN Cartridge Filter</h3>
         </div>
         <div className="image__section">
           <img src={image5} alt="" className="product__image" style={{ height : "20vh" , width : "20vw"}}/>

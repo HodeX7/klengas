@@ -38,7 +38,7 @@
     align-items: center;
 }
 .product__image__skid{
-    height: 20vh;
+    height: 25vh;
     margin-right: 10vw;
     margin-left: 2vw;
     object-fit: contain;
