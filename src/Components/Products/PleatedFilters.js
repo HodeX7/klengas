@@ -14,8 +14,8 @@ import image6 from "../../assets/Product images/polypro/polypro filter 2.png"
 import image7 from "../../assets/Product images/polypro/polypro filter 3.png"
 import image8 from "../../assets/Product images/polypro/polypro filter 4.png"
 
-import  KGTPolypromaxCartridgefilter from "../../assets/Catalogue/06 KGT_Polypromax_Pleated_Cartridge_Filter_Catalogue_R0.pdf"
-import  KGTPolyproCartridgefilter from "../../assets/Catalogue/05 KGT_Polypro_Pleated_Cartridge_Filter_Catalogue_R0.pdf"
+import  KGTPolypromaxCartridgefilter from "../../assets/Catalogue/06_KGT_Polypromax_Pleated_Cartridge_Filter_Catalogue_R0.pptx"
+import  KGTPolyproCartridgefilter from "../../assets/Catalogue/05_KGT_Polypro_Pleated_Cartridge_Filter_Catalogue_R0.pptx"
 function PleatedFilters() {
   return (
     <div className="products__page">

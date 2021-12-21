@@ -14,8 +14,8 @@ import image7 from "../../assets/Product images/smitmann/Picture3.png"
 import image8 from "../../assets/Product images/smitmann/Picture4.png"
 
 
-import KGTLargeFlowfilter from "../../assets/Catalogue/02 KGT_Large_flow_Catalogue_R4.pdf"
-import  KGTSMITMANNCartridgefilter from "../../assets/Catalogue/07 KGT_Smitmann_Cartridge_Filter_Catalogue_R0.pdf"
+import KGTLargeFlowfilter from "../../assets/Catalogue/02_KGT_Large_flow_Catalogue_R5.pptx"
+import  KGTSMITMANNCartridgefilter from "../../assets/Catalogue/07_KGT_Smitmann_Cartridge_Filter_Catalogue_R0.pptx"
 function LargeDiameterFilter() {
   return (
     <div className="products__page">

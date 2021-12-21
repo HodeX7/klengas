@@ -6,7 +6,7 @@ import image2 from "../../assets/Product images/bag filter/Bag_Filter_1.png"
 import image3 from "../../assets/Product images/bag filter/Bag_Filter_2.png"
 import image4 from "../../assets/Product images/bag filter/Bag_Filter_3.png"
 
-import KGTBagfilter from "../../assets/Catalogue/01 KGT_Bag_Filter_Catalogue_R1.pdf"
+import KGTBagfilter from "../../assets/Catalogue/01_KGT_Bag_Filter_Catalogue_R2.pptx"
 function BagFilter() {
   return (
     <div className="products__page">

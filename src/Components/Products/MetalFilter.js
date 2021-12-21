@@ -3,8 +3,8 @@ import "./BagFilter.css";
 import image from "../../assets/images/logo.png";
 import mainImage from "../../assets/images/pleatedFiltersBanner.jpg";
 
-import KGTWireMeshMetalFilter from "../../assets/Catalogue/03 KGT_Metal_Filter_Catalogue_R0.pdf"
-import KGTPowderedSinteredStainlessSteelFilter from "../../assets/Catalogue/04 KGT_Sintered_Powder_Metal_Filter_Catalogue.pdf"
+import KGTWireMeshMetalFilter from "../../assets/Catalogue/03_KGT_Metal_Mesh_Filter_Catalogue_R0.pptx"
+import KGTPowderedSinteredStainlessSteelFilter from "../../assets/Catalogue/04_KGT_Sintered_Powder_Metal_Filter_Catalogue_R1.pptx"
 
 import image1 from "../../assets/Product images/metal mesh/metal mesh filter 1.jpg"
 import image2 from "../../assets/Product images/metal mesh/metal mesh filter 2.jpg"
